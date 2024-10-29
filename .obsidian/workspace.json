@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "f8ed061f5a82b367",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb76aa9cff1664db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "387fb44085f75680",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MGDIS/Process/Process fix.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Process fix"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50798b505c40803c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d49fd6a4bd0bfc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a7b2e8b20c65977",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "544dc9e0f223723d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "a02882bf03e73346",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "f2363868ec6eab5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "199f774901f65f13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689df1be4bd49d5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MGDIS/Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Notes"
+            }
+          },
+          {
+            "id": "5a853a298f703487",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MGDIS/Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de Notes"
+            }
+          },
+          {
+            "id": "e390d2e31031d269",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "a066f1b921244bb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MGDIS/Notes.md"
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Notes"
+            }
+          },
+          {
+            "id": "71ce0eed2646a25c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "387fb44085f75680",
+  "lastOpenFiles": [
+    "MGDIS/Test file.md",
+    "MGDIS/Process/Process fix.md",
+    "MDS",
+    "MGDIS/Erreurs/Erreur de DNS en TT - WSL.md",
+    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
+    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
+    "MGDIS/Notes.md",
+    "MGDIS/Utils/Markdown guide.md",
+    "MGDIS/Utils/Git aliases.md",
+    "MGDIS/Utils/Compte usager.md",
+    "MGDIS/Process/Se connecter à l'env de dev.md",
+    "MGDIS/Process/Lancer 2 services en local.md",
+    "Fish terminal.md",
+    "MGDIS/Guilde 15-10-24.md",
+    "MGDIS/Process",
+    "MGDIS/Utils",
+    "Pro/Process fix.md",
+    "Pro/Notes.md",
+    "Lancer 2 services en local.md",
+    "Test file.md",
+    "Pro/Erreurs/Erreur 404 sur un iframe.md",
+    "Pro/Erreurs/Erreur 404 lors d'un commit.md",
+    "Markdown guide.md",
+    "Pro/AG.md",
+    "jira.mgdis.fr/browse/PLAID-117928.md",
+    "jira.mgdis.fr/desktop.ini",
+    "jira.mgdis.fr/browse",
+    "jira.mgdis.fr",
+    "Pro/a.md",
+    "melwinchenu.fr.md",
+    "Test.md",
+    "Pro/Erreurs",
+    "Sans titre.canvas",
+    "Perso",
+    "Sans titre/desktop.ini",
+    "Pro",
+    "Untitled.canvas"
+  ]
+}
