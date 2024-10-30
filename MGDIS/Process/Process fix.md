@@ -26,7 +26,7 @@
 	1. Titre : message de commit (ou modifié si pas assez clair)
 	2. Résumé : détail des modifs
 	3. Assigné : moi
-	4. Tag les personnes nécessaires à la MR (1 tech lead min) en fonction de leur scope (si une autre FT alors tag un tech-lead + ref front si concerné)
+	4. Tag les personnes nécessaires à la MR (1 tech lead min + ref front si concerné) en fonction de leur scope (si une autre FT alors tag un tech-lead + ref front si concerné)
 	5. Décocher squash commits (laisser cocher delete branch after MR)
 11. Lorsque la MR est validée par les relecteurs -> Passage en relecture beta
 	1. Changer d'assigné sur la MR gitlab, mettre Erwan Le Bideau
