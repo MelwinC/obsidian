@@ -13,11 +13,11 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "MGDIS/Process/Process fix.md",
+                "file": "MGDIS/Notes.md",
                 "staged": false
               },
               "icon": "git-pull-request",
-              "title": "Diff View (Process fix)"
+              "title": "Diff View (Notes)"
             }
           }
         ]
@@ -172,7 +172,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65cd037822498908",
+  "active": "71ce0eed2646a25c",
   "lastOpenFiles": [
     "MGDIS/Notes.md",
     "MGDIS/Process/Process fix.md",
