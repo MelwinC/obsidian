@@ -15,9 +15,7 @@
               "state": {
                 "file": "MGDIS/Notes.md",
                 "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (Notes)"
+              }
             }
           }
         ]
@@ -40,9 +38,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              }
             }
           },
           {
@@ -57,9 +53,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Rechercher"
+              }
             }
           },
           {
@@ -67,9 +61,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Signet"
+              "state": {}
             }
           }
         ]
@@ -100,9 +92,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Rétrolien pour Notes"
+              }
             }
           },
           {
@@ -114,9 +104,7 @@
                 "file": "MGDIS/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Liens sortants de Notes"
+              }
             }
           },
           {
@@ -127,9 +115,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Mots-clés"
+              }
             }
           },
           {
@@ -139,9 +125,7 @@
               "type": "outline",
               "state": {
                 "file": "MGDIS/Utils/Git aliases.md"
-              },
-              "icon": "lucide-list",
-              "title": "Plan de Git aliases"
+              }
             }
           },
           {
@@ -149,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "state": {}
             }
           }
         ],
@@ -163,22 +145,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71ce0eed2646a25c",
+  "active": "5a7b2e8b20c65977",
   "lastOpenFiles": [
+    "MDS/Stratégie d'entreprise/Jalon 3.md",
+    "MDS/Stratégie d'entreprise/Jalon 2.md",
+    "MDS/Stratégie d'entreprise/Jalon 1.md",
+    "MDS/Stratégie d'entreprise/Balanced Scorecard.md",
+    "MDS/Stratégie d'entreprise",
+    "MDS/English/Response.md",
+    "MDS/English/Presentation & Resume.md",
+    "MDS/English/New words.md",
+    "MDS/English/Exam.md",
+    "MDS/English",
+    "MDS/API REST - ORM - GraphQL/Swagger WIP.md",
+    "MDS/API REST - ORM - GraphQL",
+    "MDS",
+    "Images/Pasted image 20241011145036.png",
+    "Images",
     "MGDIS/Notes.md",
     "MGDIS/Process/Process fix.md",
     "MGDIS/Utils/Git aliases.md",
     "MGDIS/Test file.md",
-    "MDS",
     "MGDIS/Erreurs/Erreur de DNS en TT - WSL.md",
     "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
     "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
@@ -194,22 +190,10 @@
     "Pro/Notes.md",
     "Lancer 2 services en local.md",
     "Test file.md",
-    "Pro/Erreurs/Erreur 404 sur un iframe.md",
-    "Pro/Erreurs/Erreur 404 lors d'un commit.md",
-    "Markdown guide.md",
-    "Pro/AG.md",
-    "jira.mgdis.fr/browse/PLAID-117928.md",
     "jira.mgdis.fr/desktop.ini",
     "jira.mgdis.fr/browse",
     "jira.mgdis.fr",
-    "Pro/a.md",
-    "melwinchenu.fr.md",
-    "Test.md",
-    "Pro/Erreurs",
     "Sans titre.canvas",
-    "Perso",
-    "Sans titre/desktop.ini",
-    "Pro",
     "Untitled.canvas"
   ]
 }
