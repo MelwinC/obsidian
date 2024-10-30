@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a1d81269f3a1336e",
+        "id": "743acf4899f2b994",
         "type": "tabs",
         "children": [
           {
-            "id": "65cd037822498908",
+            "id": "b9804f75e9e39ce1",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "MGDIS/Notes.md",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -84,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MGDIS/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MGDIS/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MGDIS/Utils/Git aliases.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,8 +147,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a7b2e8b20c65977",
+  "active": "b9804f75e9e39ce1",
   "lastOpenFiles": [
+    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
+    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
+    "MGDIS/TODO.md",
+    "MGDIS/Notes.md",
+    "MDS/TODO.md",
+    "MDS/Agenda.md",
+    "MGDIS/Agenda.md",
     "MDS/Stratégie d'entreprise/Jalon 3.md",
     "MDS/Stratégie d'entreprise/Jalon 2.md",
     "MDS/Stratégie d'entreprise/Jalon 1.md",
@@ -171,13 +171,10 @@
     "MDS",
     "Images/Pasted image 20241011145036.png",
     "Images",
-    "MGDIS/Notes.md",
     "MGDIS/Process/Process fix.md",
     "MGDIS/Utils/Git aliases.md",
     "MGDIS/Test file.md",
     "MGDIS/Erreurs/Erreur de DNS en TT - WSL.md",
-    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
-    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
     "MGDIS/Utils/Markdown guide.md",
     "MGDIS/Utils/Compte usager.md",
     "MGDIS/Process/Se connecter à l'env de dev.md",
@@ -186,10 +183,6 @@
     "MGDIS/Guilde 15-10-24.md",
     "MGDIS/Process",
     "MGDIS/Utils",
-    "Pro/Process fix.md",
-    "Pro/Notes.md",
-    "Lancer 2 services en local.md",
-    "Test file.md",
     "jira.mgdis.fr/desktop.ini",
     "jira.mgdis.fr/browse",
     "jira.mgdis.fr",
