@@ -32,7 +32,7 @@
 	1. Analyser le retour
 	2. Fix si besoin
 	3. Squash les commits si besoin (si pas d'intérêt d'en avoir 2) [tuto](obsidian://open?vault=obsidian&file=MGDIS%2FUtils%2FSquash%20commits)
-12. Lorsque la MR est validée par les relecteurs -> Passage en relecture
+12. Lorsque la MR est validée par les relecteurs + pipeline success -> Passage en relecture
 	1. Changer d'assigné sur la MR gitlab, mettre Erwan Le Bideau
 	2. Passer le ticket jira en relecture beta
 		1. Mettre une description du correctif en ==français== 

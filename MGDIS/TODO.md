@@ -1,14 +1,15 @@
 
-- [ ] Faire un point avec Thibaut & Louis Q début novembre
-	- [ticket LouisQ](https://gitlab.mgdis.fr/angular/portail-depot-demande-aides/-/merge_requests/4906?commit_id=38a54fc4aaa6720b953937dc5bfcd91586b16d2a)
+- [x] Créer le point avec Thibaut & Louis Q début novembre (data-schemas)
+	- [MR LouisQ](https://gitlab.mgdis.fr/angular/portail-depot-demande-aides/-/merge_requests/4906?commit_id=38a54fc4aaa6720b953937dc5bfcd91586b16d2a)
+	- [ticket LouisQ](https://jira.mgdis.fr/browse/PLAID-117713)
 	- [Ma MR](https://gitlab.mgdis.fr/nodejs/data-schemas/-/merge_requests/1459)
 	- [lien localhost](http://localhost:5174/#/dev1/connecte/F_BOURSEMERITE/depot/simple?p=RK_RQ8J03)
-	- 
 - [ ] Grille d'évaluation alternance pour le 19/11
-- [ ] [PLAID-117716](https://jira.mgdis.fr/browse/PLAID-117716)
-	- [ ] Attendre la validation MR et passer en RB
-	- [ ] 
+- [x] [PLAID-117716](https://jira.mgdis.fr/browse/PLAID-117716)
+	- [x] Retour MR
+	- [x] RB
 - [ ] [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791)
+	- [ ] Qualifier le ticket en spécifiant les différents points qui peuvent ou non être fix et pourquoi
 	- [ ] Erreur mg-badge -> value dans doc collect
 		- Erreur value prop sur les mg-badge
 			- Valeur envoyée : length du tableau piece.documents (valeur === 0)
@@ -16,5 +17,12 @@
 			- Erreur comme si la valeur envoyée ne match pas la condition, à voir si la valeur ne match pas que lors de l'initialisation de la page et ensuite la valeur attribuée match
 	- [ ] Autre erreur console sur les balises link vers les fichiers css dans data-schemas. Probablement à ne pas supprimer car possiblement présent dans d'autres tenants / env
 	- [ ] Erreur checkValidity EA sur le [mg-input-textarea](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
+		- [ ] Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L61)
 - [ ] [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931)
-	- [ ] Ticket migration uic -> mg-comp composant datepicker avec Martin & Alexandre, analyse à lancer lors de la semaine de mon retour le 14
+	- [ ] Analyse w/ MAS (voir les cas d'utilisations uic)
+- [ ] [PLAID-118034](https://jira.mgdis.fr/browse/PLAID-118034)
+	- [ ] Reproduire
+	- [ ] Analyser
+	- [ ] Voir si ca vient de l'integration du composant ou du composant lui meme (SIRET / liste valeurs => 1 uic et l'autre mg-comp)
+- [ ] Correctif ABO (Analyse déjà faite)
+	- [ ] Reprendre l'analyse et voir pour dev le correctif (c'est du back data-schemas)
