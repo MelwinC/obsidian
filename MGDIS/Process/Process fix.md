@@ -28,27 +28,14 @@
 	3. Assigné : moi
 	4. Tag les personnes nécessaires à la MR (1 tech lead min + ref front si concerné) en fonction de leur scope (si une autre FT alors tag un tech-lead + ref front si concerné)
 	5. Décocher squash commits (laisser cocher delete branch after MR)
-11. Lorsque la MR est validée par les relecteurs -> Passage en relecture beta
+11. Si retour sur MR
+	1. Analyser le retour
+	2. Fix si besoin
+	3. Squash les commits si besoin (si pas d'intérêt d'en avoir 2) [tuto](obsidian://open?vault=obsidian&file=MGDIS%2FUtils%2FSquash%20commits)
+12. Lorsque la MR est validée par les relecteurs -> Passage en relecture
 	1. Changer d'assigné sur la MR gitlab, mettre Erwan Le Bideau
 	2. Passer le ticket jira en relecture beta
 		1. Mettre une description du correctif en ==français== 
 		2. Indiquer le contexte du bug 
 			-  Si effet de bord évolution / correctif indiquer le ticket en cause
 		3. Me retirer du statut responsable sur le ticket jira
-
-
---- 
-
-#### Pour squash les commits : 
-
-```
-git checkout <fix_branch_name>
-git pull
-git rebase -i HEAD~n (n: nb de commits) 
-```
-
-Laisser le "pick" sur le commit à conserver et remplacer les autres par 'f' (pour fixup) puis save le fichier
-
-```
-git push -f (après avoir vérifié les changements pour bien voir les commits supprimés VS le commit envoyé)
-```
