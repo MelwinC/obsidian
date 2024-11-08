@@ -1,5 +1,4 @@
---- 
-# Problème
+### Problème
 
  ERR_PNPM_FETCH_404  GET http://artifactory.mgdis.fr/artifactory/api/npm/npm-repo/--no-install: Not Found - 404
 
@@ -12,7 +11,7 @@ No authorization header was set for the request.
 
 ---
 
-# Solution
+### Solution
 
 ```
 npx husky install // or pnpm or pnpm dlx
