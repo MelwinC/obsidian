@@ -17,4 +17,4 @@ I'm on a temporary contract
 Appraise : Evaluer
 Fostering : Favoriser 
 Strive : S'efforcer
-Thrive : Prospérer
+Thrive : Prospérer / S'épanouir

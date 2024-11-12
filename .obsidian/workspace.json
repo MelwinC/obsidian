@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "328209117b7c2e20",
+        "id": "d26eea69edf09245",
         "type": "tabs",
         "children": [
           {
-            "id": "4289a56745159640",
+            "id": "238cd8d6586db755",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Rechercher"
+              "title": "Search"
             }
           },
           {
@@ -70,7 +70,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Signet"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -88,61 +88,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "689df1be4bd49d5d",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "MGDIS/TODO.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Rétrolien pour TODO"
-            }
-          },
-          {
-            "id": "5a853a298f703487",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "MGDIS/TODO.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Liens sortants de TODO"
-            }
-          },
-          {
-            "id": "e390d2e31031d269",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Mots-clés"
-            }
-          },
-          {
             "id": "a066f1b921244bb2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MGDIS/TODO.md"
+                "file": "MDS/English/New words.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de TODO"
+              "title": "Outline of New words"
             }
           },
           {
@@ -156,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,38 +127,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4289a56745159640",
+  "active": "238cd8d6586db755",
   "lastOpenFiles": [
     "MDS/English/2024-11-12.md",
     "MDS/English/New words.md",
-    "MDS/Stratégie d'entreprise/Jalon 2.md",
-    "MGDIS/Erreurs/Erreur $injector.md",
-    "MDS/Stratégie d'entreprise/Jalon 3.md",
-    "MDS/Stratégie d'entreprise/Jalon 1.md",
-    "MDS/Stratégie d'entreprise/Balanced Scorecard.md",
-    "MDS/English/Presentation & Resume.md",
-    "MDS/English/Response.md",
+    "MGDIS/Utils/Git aliases.md",
     "MDS/TODO.md",
-    "MDS/Architecture logicielle/Soutenance.md",
+    "MGDIS/Utils/Squash commits.md",
+    "MGDIS/Erreurs/Erreur $injector.md",
     "MDS/Architecture logicielle/Glossaire.md",
+    "MDS/Architecture logicielle/Soutenance.md",
     "MDS/Architecture logicielle/Exercice Skippers.md",
     "MDS/Architecture logicielle/2024-10-22.md",
     "MDS/Architecture logicielle/2024-10-21.md",
     "MDS/Architecture logicielle",
-    "MDS/Untitled",
-    "MGDIS/TODO.md",
-    "MGDIS/Process/Process fix.md",
-    "MGDIS/Utils/Squash commits.md",
-    "MGDIS/Utils/Git aliases.md",
-    "MGDIS/Notes.md",
+    "Test file.md",
+    "Untitled.canvas",
+    "2024-10-31.md",
     "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
     "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
+    "MGDIS/TODO.md",
+    "MGDIS/Notes.md",
     "MDS/Agenda.md",
     "MGDIS/Agenda.md",
+    "MDS/Stratégie d'entreprise/Jalon 3.md",
+    "MDS/Stratégie d'entreprise/Jalon 2.md",
+    "MDS/Stratégie d'entreprise/Jalon 1.md",
+    "MDS/Stratégie d'entreprise/Balanced Scorecard.md",
     "MDS/Stratégie d'entreprise",
+    "MDS/English/Response.md",
+    "MDS/English/Presentation & Resume.md",
     "MDS/English/Exam.md",
     "MDS/English",
-    "MDS/API REST - ORM - GraphQL/Swagger WIP.md",
     "MDS/API REST - ORM - GraphQL",
     "MDS",
     "Images/Pasted image 20241011145036.png",
@@ -212,7 +166,7 @@
     "MGDIS/Process",
     "MGDIS/Utils",
     "jira.mgdis.fr/desktop.ini",
-    "Sans titre.canvas",
-    "Untitled.canvas"
+    "jira.mgdis.fr/browse",
+    "Sans titre.canvas"
   ]
 }
