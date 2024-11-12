@@ -12,3 +12,9 @@ I'm on a temporary contract
 
 --- 
 
+#### 2024-11-12
+
+Appraise : Evaluer
+Fostering : Favoriser 
+Strive : S'efforcer
+Thrive : Prospérer
