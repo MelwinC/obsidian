@@ -6,10 +6,7 @@
 	- [lien localhost](http://localhost:5174/#/dev1/connecte/F_BOURSEMERITE/depot/simple?p=RK_RQ8J03)
 	- Voir pour appliquer dans le portail dépôt la logique de l'autosave : 
 		- évènement qui appelle la méthode keepOnlyValidFieldValues de data-schemas
-- [x] [PLAID-117716](https://jira.mgdis.fr/browse/PLAID-117716)error numeric-type
-	- [x] Retour MR
-	- [x] RB
-- [ ] [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791) console errors à qualifier
+-  [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791) console errors à qualifier
 	- [ ] Qualifier le ticket en spécifiant les différents points qui peuvent ou non être fix et pourquoi
 	- [ ] Erreur mg-badge -> value dans doc collect
 		- Erreur value prop sur les mg-badge
@@ -19,16 +16,18 @@
 	- [ ] Autre erreur console sur les balises link vers les fichiers css dans data-schemas. Probablement à ne pas supprimer car possiblement présent dans d'autres tenants / env
 	- [ ] Erreur checkValidity EA sur le [mg-input-textarea](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
 		- [ ] Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L61)
-- [ ] [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931) migration mg-comp
+-  [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931) migration mg-comp
 	- [ ] Analyse w/ MAS
-	- [ ] Vérifier que les erreurs sont communiquées au form dans le cas d'une règle de validation non respectée ou required
-- [ ] [PLAID-118034](https://jira.mgdis.fr/browse/PLAID-118034) info comp transverses (SIRET / liste valeurs)
+	- [ ] Analyse w/ ABO + relecture de l'analyse actuelle
+	- [ ] Vérifier que les erreurs sont communiquées au form dans le cas d'une règle de validation non respectée ou required ?
+	- [ ] migration v6
+-  [PLAID-118034](https://jira.mgdis.fr/browse/PLAID-118034) info comp transverses (SIRET / liste valeurs)
 	- [x] Reproduire
 	- [x] Analyser
-	- [ ] Voir si ca vient de l'integration du composant ou du composant lui meme (SIRET / liste valeurs => 1 uic et l'autre mg-comp)
-	- [ ] Seconde erreur (env nonreg3 id: steph01 -> autres profils) je n'arrive pas à trouver d'où vient l'erreur
-	- [ ] Voir pour le report sur la 250 demandé en commentaire du ticket
-- [ ] Grille d'évaluation pour le 19/11
-	- [ ] Remplir
-	- [ ] Réfléchir aux missions faites en entreprise (segmenter)
+	- [x] Erreur form.$invalid
+	- [ ] Erreur SIRET + liste de valeurs
+		- [ ] Voir avec ABO pour la solution technique à apporter
+			- [ ] Le reduce supprime les valeurs undefined, voir pour modifier sa valeur à "" mais dans ce cas sûrement des problèmes de types ?
+	- [ ] Thibaut : "Il faudra donc faire un report de la correction sur la version qui va sortir et la 250"
+		- [ ] Voir avec ABO
 - [ ] Ramener le clavier mx master

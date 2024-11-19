@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d26eea69edf09245",
+        "id": "b8bf977845f1fdb6",
         "type": "tabs",
         "children": [
           {
-            "id": "238cd8d6586db755",
+            "id": "16b3ec2b0fdd29d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MDS/TODO.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -43,7 +39,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -60,7 +56,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Rechercher"
             }
           },
           {
@@ -70,7 +66,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Signet"
             }
           }
         ]
@@ -88,15 +84,61 @@
         "type": "tabs",
         "children": [
           {
+            "id": "689df1be4bd49d5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MGDIS/TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour TODO"
+            }
+          },
+          {
+            "id": "5a853a298f703487",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MGDIS/TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de TODO"
+            }
+          },
+          {
+            "id": "e390d2e31031d269",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
             "id": "a066f1b921244bb2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MDS/English/New words.md"
+                "file": "MGDIS/TODO.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of New words"
+              "title": "Plan de TODO"
             }
           },
           {
@@ -108,92 +150,47 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "fd986cd578178d24",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "MDS/TODO.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for TODO"
-            }
-          },
-          {
-            "id": "1c7f461effd4d086",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "MDS/TODO.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from TODO"
-            }
-          },
-          {
-            "id": "16cbb78683ac3819",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 339.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "238cd8d6586db755",
+  "active": "16b3ec2b0fdd29d2",
   "lastOpenFiles": [
-    "MDS/English/New words.md",
-    "MDS/English/2024-11-12.md",
-    "MGDIS/Utils/Git aliases.md",
-    "MDS/TODO.md",
-    "MGDIS/Utils/Squash commits.md",
+    "MGDIS/Utils/Lancer 2 services en local.md",
+    "MGDIS/TODO.md",
+    "MGDIS/Notes.md",
     "MGDIS/Erreurs/Erreur $injector.md",
-    "MDS/Architecture logicielle/Glossaire.md",
+    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
+    "MGDIS/Utils/Process fix.md",
+    "MDS/English/2024-11-12.md",
+    "MGDIS/Erreurs/Erreur.md",
+    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
+    "MGDIS/Erreurs/Erreur de DNS en TT - WSL.md",
+    "MDS/Architecture logicielle/desktop.ini",
     "MDS/Architecture logicielle/Soutenance.md",
     "MDS/Architecture logicielle/Exercice Skippers.md",
+    "MDS/Architecture logicielle/Glossaire.md",
     "MDS/Architecture logicielle/2024-10-22.md",
     "MDS/Architecture logicielle/2024-10-21.md",
     "MDS/Architecture logicielle",
-    "Test file.md",
-    "Untitled.canvas",
-    "2024-10-31.md",
-    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
-    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
-    "MGDIS/TODO.md",
-    "MGDIS/Notes.md",
+    "MGDIS/Utils/Squash commits.md",
+    "MGDIS/Utils/Git aliases.md",
+    "MDS/TODO.md",
     "MDS/Agenda.md",
     "MGDIS/Agenda.md",
     "MDS/Stratégie d'entreprise/Jalon 3.md",
@@ -203,7 +200,6 @@
     "MDS/Stratégie d'entreprise",
     "MDS/English/Response.md",
     "MDS/English/Presentation & Resume.md",
-    "MDS/English/Exam.md",
     "MDS/English",
     "MDS/API REST - ORM - GraphQL",
     "MDS",
@@ -212,7 +208,7 @@
     "MGDIS/Process",
     "MGDIS/Utils",
     "jira.mgdis.fr/desktop.ini",
-    "jira.mgdis.fr/browse",
-    "Sans titre.canvas"
+    "Sans titre.canvas",
+    "Untitled.canvas"
   ]
 }
