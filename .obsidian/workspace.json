@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b8bf977845f1fdb6",
+        "id": "e9e5621bc811745a",
         "type": "tabs",
         "children": [
           {
-            "id": "16b3ec2b0fdd29d2",
+            "id": "ca990c60cc044e79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MGDIS/TODO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "TODO"
             }
           }
         ]
@@ -169,17 +173,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16b3ec2b0fdd29d2",
+  "active": "ca990c60cc044e79",
   "lastOpenFiles": [
-    "MGDIS/Utils/Lancer 2 services en local.md",
-    "MGDIS/TODO.md",
-    "MGDIS/Notes.md",
+    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
     "MGDIS/Erreurs/Erreur $injector.md",
-    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
+    "MGDIS/TODO.md",
+    "MGDIS/Utils/Squash commits.md",
     "MGDIS/Utils/Process fix.md",
+    "MGDIS/Utils/Lancer 2 services en local.md",
+    "MGDIS/Notes.md",
+    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
     "MDS/English/2024-11-12.md",
     "MGDIS/Erreurs/Erreur.md",
-    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
     "MGDIS/Erreurs/Erreur de DNS en TT - WSL.md",
     "MDS/Architecture logicielle/desktop.ini",
     "MDS/Architecture logicielle/Soutenance.md",
@@ -188,7 +193,6 @@
     "MDS/Architecture logicielle/2024-10-22.md",
     "MDS/Architecture logicielle/2024-10-21.md",
     "MDS/Architecture logicielle",
-    "MGDIS/Utils/Squash commits.md",
     "MGDIS/Utils/Git aliases.md",
     "MDS/TODO.md",
     "MDS/Agenda.md",

@@ -25,9 +25,43 @@
 	- [x] Reproduire
 	- [x] Analyser
 	- [x] Erreur form.$invalid
-	- [ ] Erreur SIRET + liste de valeurs
-		- [ ] Voir avec ABO pour la solution technique à apporter
-			- [ ] Le reduce supprime les valeurs undefined, voir pour modifier sa valeur à "" mais dans ce cas sûrement des problèmes de types ?
+	- [x] Erreur SIRET + liste de valeurs : le reduce supprime les valeurs undefined
+		- SIRET MGDIS : 32816124500027
+		- [x] Voir avec ABO pour la solution technique à apporter
+		- [ ] Voir avec MAS
+		- [x] Champ mg-comp (enumeration)
+			-  Change model to null if find returns undefined
+			- [Ligne où la value est définie à undefined](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/app/components/tenant/forms/form-fields/components/enumeration-type/enumeration-type.js#L273 "https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/app/components/tenant/forms/form-fields/components/enumeration-type/enumeration-type.js#L273")
+		- [x] Champ uic (siret)
+			- onFieldValueChange exception for siret
 	- [ ] Thibaut : "Il faudra donc faire un report de la correction sur la version qui va sortir et la 250"
-		- [ ] Voir avec ABO
+	- [ ] MR
 - [ ] Ramener le clavier mx master
+
+
+- [ ] console errors
+	- Fiche de synthèse
+	- Informations générales de la demande
+	- Recevabilité de la demande
+	- Instruction
+	- Paiements
+	- Erreurs du ticket
+		- [x] undefined setting 'message'
+			- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
+			- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
+		- [x] refused to apply style ... MIME
+			- Erreur dans data-schemas : ne peut probablement pas être fix, car elle dirige vers le lien de style présent sur l'env, qui n'est pas présent sur tous les envs
+			- [lien](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/index.html#L11)
+		- [ ] mg-badge prop 'value'
+			- [ ] Erreurs en local, difficile de bien tester
+			- Erreur dans document-collect : la value passée est une length d'un array, et celle-ci est précédée d'un ng-if sur cette length, donc on peut affirmer que la valeur est bien un integer et donc ne devrait pas être en erreur car la doc indique qu'elle accepte number ou string
+			- [lien](https://gitlab.mgdis.fr/nodejs/document-collect/-/blob/alpha-oscar/apps/client/app/common/piece-form/piece-form.html#L34)
+		- [ ] undefined reading reference
+		- [ ] intermediate value is not a function
+			- [ ] Erreur pour lancer en local avec le portail-agent
+			- Erreur dans ref-fin : 
+		- [ ] mg-icon prop 'icon'
+		- [ ] mg-tooltip prop 'message' is required
+		- [ ] Cannot set properties of undefined setting 'message'
+	- Autres erreurs trouvées
+		- [ ] checkValidity

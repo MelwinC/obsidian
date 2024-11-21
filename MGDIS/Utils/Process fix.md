@@ -27,7 +27,8 @@
 	2. Résumé : détail des modifs
 	3. Assigné : moi
 	4. Tag les personnes nécessaires à la MR (1 tech lead min + ref front si concerné) en fonction de leur scope (si une autre FT alors tag un tech-lead + ref front si concerné)
-	5. Décocher squash commits (laisser cocher delete branch after MR)
+	5. Cocher delete branch after MR
+	6. Décocher squash commits
 11. Si retour sur MR
 	1. Analyser le retour
 	2. Fix si besoin
