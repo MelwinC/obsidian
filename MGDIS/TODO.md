@@ -46,22 +46,42 @@
 	- Instruction
 	- Paiements
 	- Erreurs du ticket
-		- [x] undefined setting 'message'
-			- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
-			- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
-		- [x] refused to apply style ... MIME
-			- Erreur dans data-schemas : ne peut probablement pas être fix, car elle dirige vers le lien de style présent sur l'env, qui n'est pas présent sur tous les envs
-			- [lien](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/index.html#L11)
-		- [ ] mg-badge prop 'value'
-			- [ ] Erreurs en local, difficile de bien tester
-			- Erreur dans document-collect : la value passée est une length d'un array, et celle-ci est précédée d'un ng-if sur cette length, donc on peut affirmer que la valeur est bien un integer et donc ne devrait pas être en erreur car la doc indique qu'elle accepte number ou string
-			- [lien](https://gitlab.mgdis.fr/nodejs/document-collect/-/blob/alpha-oscar/apps/client/app/common/piece-form/piece-form.html#L34)
-		- [ ] undefined reading reference
-		- [ ] intermediate value is not a function
-			- [ ] Erreur pour lancer en local avec le portail-agent
-			- Erreur dans ref-fin : 
-		- [ ] mg-icon prop 'icon'
-		- [ ] mg-tooltip prop 'message' is required
-		- [ ] Cannot set properties of undefined setting 'message'
+		- Reproduis
+			- [ ] undefined setting 'message'
+				- écran : synthèse, infos générales, recevabilité, instruction
+				- service : EA
+				- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
+				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
+				- Seconde erreur mg-tooltip 
+				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L87)
+			- [ ] refused to apply style ... MIME
+				- écran : presque tous
+				- service : data-schemas
+				- Ne peut probablement pas être fix, car elle dirige vers le lien de style présent sur l'env, qui n'est pas présent sur tous les envs
+				- [lien](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/index.html#L11)
+			- [ ] mg-badge prop 'value'
+				- [ ] Erreurs en local, difficile de bien tester
+				- écrans : recevabilité, instruction
+				- service : document-collect
+				- la value passée est une length d'un array, et celle-ci est précédée d'un ng-if sur cette length, donc on peut affirmer que la valeur est bien un integer et donc ne devrait pas être en erreur car la doc indique qu'elle accepte number ou string
+				- [lien](https://gitlab.mgdis.fr/nodejs/document-collect/-/blob/alpha-oscar/apps/client/app/common/piece-form/piece-form.html#L34)
+			- [ ] intermediate value is not a function
+				- écran : paiements, contributions
+				- service : ref-fin 
+				- Erreur pour lancer en local avec le portail-agent
+			- [ ] mg-icon prop 'icon'
+				- écran : paiements
+				- service : 
+			- [ ] mg-tooltip prop 'message' is required
+				- écran : paiements
+				- service : 
+			- [ ] Cannot read properties of null reading 'offsetHeight'
+				- écran : paiements
+				- EA, écran paiements
+				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/dashboard/component/panel/panel.component.js#L265)
+		- Non reproduis
+			- [ ] undefined reading reference
 	- Autres erreurs trouvées
 		- [ ] checkValidity
+			- écran : 
+			- service :
