@@ -6,10 +6,7 @@
 	- [lien localhost](http://localhost:5174/#/dev1/connecte/F_BOURSEMERITE/depot/simple?p=RK_RQ8J03)
 	- Voir pour appliquer dans le portail dépôt la logique de l'autosave : 
 		- évènement qui appelle la méthode keepOnlyValidFieldValues de data-schemas
-- [x] [PLAID-117716](https://jira.mgdis.fr/browse/PLAID-117716)error numeric-type
-	- [x] Retour MR
-	- [x] RB
-- [ ] [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791) console errors à qualifier
+-  [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791) console errors à qualifier
 	- [ ] Qualifier le ticket en spécifiant les différents points qui peuvent ou non être fix et pourquoi
 	- [ ] Erreur mg-badge -> value dans doc collect
 		- Erreur value prop sur les mg-badge
@@ -19,16 +16,72 @@
 	- [ ] Autre erreur console sur les balises link vers les fichiers css dans data-schemas. Probablement à ne pas supprimer car possiblement présent dans d'autres tenants / env
 	- [ ] Erreur checkValidity EA sur le [mg-input-textarea](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
 		- [ ] Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L61)
-- [ ] [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931) migration mg-comp
+-  [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931) migration mg-comp
 	- [ ] Analyse w/ MAS
-	- [ ] Vérifier que les erreurs sont communiquées au form dans le cas d'une règle de validation non respectée ou required
-- [ ] [PLAID-118034](https://jira.mgdis.fr/browse/PLAID-118034) info comp transverses (SIRET / liste valeurs)
+	- [ ] Analyse w/ ABO + relecture de l'analyse actuelle
+	- [ ] Vérifier que les erreurs sont communiquées au form dans le cas d'une règle de validation non respectée ou required ?
+	- [ ] migration v6
+-  [PLAID-118034](https://jira.mgdis.fr/browse/PLAID-118034) info comp transverses (SIRET / liste valeurs)
 	- [x] Reproduire
 	- [x] Analyser
-	- [ ] Voir si ca vient de l'integration du composant ou du composant lui meme (SIRET / liste valeurs => 1 uic et l'autre mg-comp)
-	- [ ] Seconde erreur (env nonreg3 id: steph01 -> autres profils) je n'arrive pas à trouver d'où vient l'erreur
-	- [ ] Voir pour le report sur la 250 demandé en commentaire du ticket
-- [ ] Grille d'évaluation pour le 19/11
-	- [ ] Remplir
-	- [ ] Réfléchir aux missions faites en entreprise (segmenter)
+	- [x] Erreur form.$invalid
+	- [x] Erreur SIRET + liste de valeurs : le reduce supprime les valeurs undefined
+		- SIRET MGDIS : 32816124500027
+		- [x] Voir avec ABO pour la solution technique à apporter
+		- [ ] Voir avec MAS
+		- [x] Champ mg-comp (enumeration)
+			-  Change model to null if find returns undefined
+			- [Ligne où la value est définie à undefined](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/app/components/tenant/forms/form-fields/components/enumeration-type/enumeration-type.js#L273 "https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/app/components/tenant/forms/form-fields/components/enumeration-type/enumeration-type.js#L273")
+		- [x] Champ uic (siret)
+			- onFieldValueChange exception for siret
+	- [ ] Thibaut : "Il faudra donc faire un report de la correction sur la version qui va sortir et la 250"
+	- [ ] MR
 - [ ] Ramener le clavier mx master
+
+
+- [ ] console errors
+	- Fiche de synthèse
+	- Informations générales de la demande
+	- Recevabilité de la demande
+	- Instruction
+	- Paiements
+	- Erreurs du ticket
+		- Reproduis
+			- [ ] undefined setting 'message'
+				- écran : synthèse, infos générales, recevabilité, instruction
+				- service : EA
+				- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
+				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
+				- Seconde erreur mg-tooltip 
+				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L87)
+			- [ ] refused to apply style ... MIME
+				- écran : presque tous
+				- service : data-schemas
+				- Ne peut probablement pas être fix, car elle dirige vers le lien de style présent sur l'env, qui n'est pas présent sur tous les envs
+				- [lien](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/index.html#L11)
+			- [ ] mg-badge prop 'value'
+				- [ ] Erreurs en local, difficile de bien tester
+				- écrans : recevabilité, instruction
+				- service : document-collect
+				- la value passée est une length d'un array, et celle-ci est précédée d'un ng-if sur cette length, donc on peut affirmer que la valeur est bien un integer et donc ne devrait pas être en erreur car la doc indique qu'elle accepte number ou string
+				- [lien](https://gitlab.mgdis.fr/nodejs/document-collect/-/blob/alpha-oscar/apps/client/app/common/piece-form/piece-form.html#L34)
+			- [ ] intermediate value is not a function
+				- écran : paiements, contributions
+				- service : ref-fin 
+				- Erreur pour lancer en local avec le portail-agent
+			- [ ] mg-icon prop 'icon'
+				- écran : paiements
+				- service : 
+			- [ ] mg-tooltip prop 'message' is required
+				- écran : paiements
+				- service : 
+			- [ ] Cannot read properties of null reading 'offsetHeight'
+				- écran : paiements
+				- EA, écran paiements
+				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/dashboard/component/panel/panel.component.js#L265)
+		- Non reproduis
+			- [ ] undefined reading reference
+	- Autres erreurs trouvées
+		- [ ] checkValidity
+			- écran : 
+			- service :

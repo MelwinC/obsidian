@@ -14,7 +14,7 @@ No authorization header was set for the request.
 ### Solution
 
 ```
-npx husky install // or pnpm or pnpm dlx
+pnpm dlx husky install // or pnpm or npx
 ```
 
 
