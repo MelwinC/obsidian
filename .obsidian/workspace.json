@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d26eea69edf09245",
+        "id": "2dfd9a9125610579",
         "type": "tabs",
         "children": [
           {
-            "id": "238cd8d6586db755",
+            "id": "f788b629d47ad42c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,19 +173,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "238cd8d6586db755",
+  "active": "f788b629d47ad42c",
   "lastOpenFiles": [
-    "MDS/English/New words.md",
-    "MDS/English/2024-11-12.md",
-    "MGDIS/Utils/Git aliases.md",
-    "MDS/TODO.md",
-    "MGDIS/Utils/Squash commits.md",
-    "MGDIS/Erreurs/Erreur $injector.md",
-    "MDS/Architecture logicielle/Glossaire.md",
+    "MDS/API REST - ORM - GraphQL/Swagger WIP.md",
     "MDS/Architecture logicielle/Soutenance.md",
+    "MDS/Architecture logicielle/Glossaire.md",
     "MDS/Architecture logicielle/Exercice Skippers.md",
     "MDS/Architecture logicielle/2024-10-22.md",
     "MDS/Architecture logicielle/2024-10-21.md",
+    "MDS/TODO.md",
+    "MDS/English/New words.md",
+    "MDS/English/2024-11-12.md",
+    "MGDIS/Utils/Git aliases.md",
+    "MGDIS/Utils/Squash commits.md",
+    "MGDIS/Erreurs/Erreur $injector.md",
     "MDS/Architecture logicielle",
     "Test file.md",
     "Untitled.canvas",
@@ -203,7 +204,6 @@
     "MDS/Stratégie d'entreprise",
     "MDS/English/Response.md",
     "MDS/English/Presentation & Resume.md",
-    "MDS/English/Exam.md",
     "MDS/English",
     "MDS/API REST - ORM - GraphQL",
     "MDS",

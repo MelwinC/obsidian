@@ -14,7 +14,6 @@ Note individuelle et en groupe
 - [ ] Voir pour l'erreur lors de l'inscription
 - [ ] Refacto TS
 - [ ] Refacto ESModule (fichier mjs)
-- [ ] Monorepo ?
 - [ ] Injection SQL / XSS check
 
 
