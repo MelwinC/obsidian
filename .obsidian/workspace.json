@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "f8ed061f5a82b367",
+    "type": "split",
+    "children": [
+      {
+        "id": "c60aafef3ce52a70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac2c05b766d9b2cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MGDIS/TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50798b505c40803c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d49fd6a4bd0bfc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a7b2e8b20c65977",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "544dc9e0f223723d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "a02882bf03e73346",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "f2363868ec6eab5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "199f774901f65f13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689df1be4bd49d5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MGDIS/TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour TODO"
+            }
+          },
+          {
+            "id": "5a853a298f703487",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MGDIS/TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de TODO"
+            }
+          },
+          {
+            "id": "e390d2e31031d269",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "a066f1b921244bb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MGDIS/TODO.md"
+              },
+              "icon": "lucide-list",
+              "title": "Plan de TODO"
+            }
+          },
+          {
+            "id": "71ce0eed2646a25c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 339.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ac2c05b766d9b2cd",
+  "lastOpenFiles": [
+    "MGDIS/Utils/Process fix.md",
+    "MGDIS/TODO.md",
+    "MGDIS/2024-11-25.md",
+    "MDS/TODO.md",
+    "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
+    "MGDIS/Erreurs/Erreur $injector.md",
+    "MGDIS/Utils/Squash commits.md",
+    "MGDIS/Utils/Lancer 2 services en local.md",
+    "MGDIS/Notes.md",
+    "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
+    "MDS/English/2024-11-12.md",
+    "MGDIS/Erreurs/Erreur.md",
+    "MGDIS/Erreurs/Erreur de DNS en TT - WSL.md",
+    "MDS/Architecture logicielle/desktop.ini",
+    "MDS/Architecture logicielle/Soutenance.md",
+    "MDS/Architecture logicielle/Exercice Skippers.md",
+    "MDS/Architecture logicielle/Glossaire.md",
+    "MDS/Architecture logicielle/2024-10-22.md",
+    "MDS/Architecture logicielle/2024-10-21.md",
+    "MDS/Architecture logicielle",
+    "MGDIS/Utils/Git aliases.md",
+    "MDS/Agenda.md",
+    "MGDIS/Agenda.md",
+    "MDS/Stratégie d'entreprise/Jalon 3.md",
+    "MDS/Stratégie d'entreprise/Jalon 2.md",
+    "MDS/Stratégie d'entreprise/Jalon 1.md",
+    "MDS/Stratégie d'entreprise/Balanced Scorecard.md",
+    "MDS/Stratégie d'entreprise",
+    "MDS/English/Response.md",
+    "MDS/English",
+    "MDS/API REST - ORM - GraphQL",
+    "MDS",
+    "Images/Pasted image 20241011145036.png",
+    "Images",
+    "MGDIS/Process",
+    "MGDIS/Utils",
+    "jira.mgdis.fr/desktop.ini",
+    "Sans titre.canvas",
+    "Untitled.canvas"
+  ]
+}

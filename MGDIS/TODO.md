@@ -52,7 +52,7 @@
 				- service : EA
 				- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
 				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
-				- Seconde erreur mg-tooltip 
+				- Seconde erreur mg-tooltip ?
 				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L87)
 			- [ ] refused to apply style ... MIME
 				- écran : presque tous
