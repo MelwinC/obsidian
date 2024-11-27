@@ -8,14 +8,9 @@
 		- évènement qui appelle la méthode keepOnlyValidFieldValues de data-schemas
 -  [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791) console errors à qualifier
 	- [ ] Qualifier le ticket en spécifiant les différents points qui peuvent ou non être fix et pourquoi
-	- [ ] Erreur mg-badge -> value dans doc collect
-		- Erreur value prop sur les mg-badge
-			- Valeur envoyée : length du tableau piece.documents (valeur === 0)
-			- Attendu : integer / string / "?" / "!" / "*"
-			- Erreur comme si la valeur envoyée ne match pas la condition, à voir si la valeur ne match pas que lors de l'initialisation de la page et ensuite la valeur attribuée match
 	- [ ] Autre erreur console sur les balises link vers les fichiers css dans data-schemas. Probablement à ne pas supprimer car possiblement présent dans d'autres tenants / env
 	- [ ] Erreur checkValidity EA sur le [mg-input-textarea](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
-		- [ ] Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L61)
+		- [ ] Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) 
 -  [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931) migration mg-comp
 	- [ ] Analyse w/ MAS
 	- [ ] Analyse w/ ABO + relecture de l'analyse actuelle
@@ -47,34 +42,38 @@
 	- Paiements
 	- Erreurs du ticket
 		- Reproduis
-			- [ ] undefined setting 'message'
-				- écran : synthèse, infos générales, recevabilité, instruction
-				- service : EA
-				- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
-				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
-				- Seconde erreur mg-tooltip ?
-				- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L87)
-			- [ ] refused to apply style ... MIME
-				- écran : presque tous
-				- service : data-schemas
-				- Ne peut probablement pas être fix, car elle dirige vers le lien de style présent sur l'env, qui n'est pas présent sur tous les envs
-				- [lien](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/index.html#L11)
-			- [ ] mg-badge prop 'value'
-				- [ ] Erreurs en local, difficile de bien tester
-				- écrans : recevabilité, instruction
-				- service : document-collect
-				- la value passée est une length d'un array, et celle-ci est précédée d'un ng-if sur cette length, donc on peut affirmer que la valeur est bien un integer et donc ne devrait pas être en erreur car la doc indique qu'elle accepte number ou string
-				- [lien](https://gitlab.mgdis.fr/nodejs/document-collect/-/blob/alpha-oscar/apps/client/app/common/piece-form/piece-form.html#L34)
-			- [ ] intermediate value is not a function
-				- écran : paiements, contributions
-				- service : ref-fin 
-				- Erreur pour lancer en local avec le portail-agent
-			- [ ] mg-icon prop 'icon'
-				- écran : paiements
-				- service : 
-			- [ ] mg-tooltip prop 'message' is required
-				- écran : paiements
-				- service : 
+			- Potentielle solution
+				- [ ] undefined setting 'message'
+					- écran : synthèse, infos générales, recevabilité, instruction
+					- service : EA
+					- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
+					- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/src/aides/dossier/suivi-de-dossier/aides-suivi-de-dossier.html#L69)
+					- Seconde erreur mg-tooltip ?
+					- [lien](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/beta-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L87)
+				- [ ] mg-tooltip prop 'message' is required
+					- écran : paiements
+					- service : ref-fin 
+					- [ici](https://gitlab.mgdis.fr/nodejs/referentiel-financement/-/blob/beta-november/apps/client-legacy/components/demandes-paiement/liste-paiements/liste-paiements.component.html#L68)
+				- [ ] mg-badge prop 'value'
+					- Erreurs en local, difficile de bien tester
+					- écrans : recevabilité, instruction
+					- service : document-collect
+					- la value passée est une length d'un array, et celle-ci est précédée d'un ng-if sur cette length, donc on peut affirmer que la valeur est bien un integer et donc ne devrait pas être en erreur car la doc indique qu'elle accepte number ou string
+					- [lien](https://gitlab.mgdis.fr/nodejs/document-collect/-/blob/alpha-oscar/apps/client/app/common/piece-form/piece-form.html#L34)
+			- Pas de solution trouvée
+				- [ ] refused to apply style ... MIME
+					- écran : presque tous
+					- service : data-schemas
+					- Ne peut probablement pas être fix, car elle dirige vers le lien de style présent sur l'env, qui n'est pas présent sur tous les envs
+					- [lien](https://gitlab.mgdis.fr/nodejs/data-schemas/-/blob/beta-november/client/index.html#L11)
+			- Problème non trouvé
+				- [ ] intermediate value is not a function
+					- écran : paiements, contributions
+					- service : ref-fin 
+					- Erreur pour lancer en local avec le portail-agent
+				- [ ] mg-icon prop 'icon'
+					- écran : paiements
+					- service : ref-fin probablement (écran paiement)
 			- [ ] Cannot read properties of null reading 'offsetHeight'
 				- écran : paiements
 				- EA, écran paiements

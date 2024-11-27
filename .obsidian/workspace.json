@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c60aafef3ce52a70",
+        "id": "1aca6dc9ff45de00",
         "type": "tabs",
         "children": [
           {
-            "id": "ac2c05b766d9b2cd",
+            "id": "83cb2a0e5feea461",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGDIS/TODO.md",
+                "file": "MGDIS/Utils/Process patch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Process patch"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 373.5
   },
   "right": {
     "id": "f2363868ec6eab5e",
@@ -173,16 +173,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac2c05b766d9b2cd",
+  "active": "83cb2a0e5feea461",
   "lastOpenFiles": [
+    "Markdown guide.md",
+    "MGDIS/Utils/Process patch.md",
+    "MDS/Images/Pasted image 20241011145036.png",
+    "MGDIS/Images/Pasted image 20241127095947.png",
+    "MGDIS/Images/Pasted image 20241127100013.png",
+    "Pasted image 20241127094953.png",
+    "MGDIS/Images/Pasted image 20241127094959.png",
+    "MGDIS/Images/Pasted image 20241127094530.png",
+    "Pasted image 20241127094229.png",
+    "MGDIS/Images/Pasted image 20241127094015.png",
+    "MGDIS/Images/Pasted image 20241127092330.png",
+    "MGDIS/Utils/Se connecter à l'env de dev.md",
+    "MGDIS/Images",
+    "MGDIS/Utils/Lancer 2 services en local.md",
+    "Git aliases.md",
+    "MGDIS/Images/Pasted image 20241127092503.png",
     "MGDIS/Utils/Process fix.md",
     "MGDIS/TODO.md",
+    "MGDIS/Erreurs/Erreur $injector.md",
     "MGDIS/2024-11-25.md",
     "MDS/TODO.md",
     "MGDIS/Erreurs/Erreur 404 lors d'un commit.md",
-    "MGDIS/Erreurs/Erreur $injector.md",
     "MGDIS/Utils/Squash commits.md",
-    "MGDIS/Utils/Lancer 2 services en local.md",
     "MGDIS/Notes.md",
     "MGDIS/Erreurs/Erreur 404 sur un iframe.md",
     "MDS/English/2024-11-12.md",
@@ -195,23 +210,16 @@
     "MDS/Architecture logicielle/2024-10-22.md",
     "MDS/Architecture logicielle/2024-10-21.md",
     "MDS/Architecture logicielle",
-    "MGDIS/Utils/Git aliases.md",
     "MDS/Agenda.md",
     "MGDIS/Agenda.md",
     "MDS/Stratégie d'entreprise/Jalon 3.md",
-    "MDS/Stratégie d'entreprise/Jalon 2.md",
-    "MDS/Stratégie d'entreprise/Jalon 1.md",
-    "MDS/Stratégie d'entreprise/Balanced Scorecard.md",
     "MDS/Stratégie d'entreprise",
-    "MDS/English/Response.md",
     "MDS/English",
     "MDS/API REST - ORM - GraphQL",
     "MDS",
-    "Images/Pasted image 20241011145036.png",
-    "Images",
+    "MDS/Images",
     "MGDIS/Process",
     "MGDIS/Utils",
-    "jira.mgdis.fr/desktop.ini",
     "Sans titre.canvas",
     "Untitled.canvas"
   ]
