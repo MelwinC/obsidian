@@ -1,21 +1,9 @@
 
-- [x] Point avec Thibaut & Louis Q 05/11 (data-schemas)
-	- [MR LouisQ](https://gitlab.mgdis.fr/angular/portail-depot-demande-aides/-/merge_requests/4906?commit_id=38a54fc4aaa6720b953937dc5bfcd91586b16d2a)
-	- [ticket LouisQ](https://jira.mgdis.fr/browse/PLAID-117713)
-	- [Ma MR](https://gitlab.mgdis.fr/nodejs/data-schemas/-/merge_requests/1459)
-	- [lien localhost](http://localhost:5174/#/dev1/connecte/F_BOURSEMERITE/depot/simple?p=RK_RQ8J03)
-	- Voir pour appliquer dans le portail dépôt la logique de l'autosave : 
-		- évènement qui appelle la méthode keepOnlyValidFieldValues de data-schemas
--  [PLAID-112791](https://jira.mgdis.fr/browse/PLAID-112791) console errors à qualifier
-	- [ ] Qualifier le ticket en spécifiant les différents points qui peuvent ou non être fix et pourquoi
-	- [ ] Autre erreur console sur les balises link vers les fichiers css dans data-schemas. Probablement à ne pas supprimer car possiblement présent dans d'autres tenants / env
-	- [ ] Erreur checkValidity EA sur le [mg-input-textarea](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
-		- [ ] Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) 
 -  [PLAID-116931](https://jira.mgdis.fr/browse/PLAID-116931) migration mg-comp
 	- [ ] Analyse w/ MAS
 	- [ ] Analyse w/ ABO + relecture de l'analyse actuelle
 	- [ ] Vérifier que les erreurs sont communiquées au form dans le cas d'une règle de validation non respectée ou required ?
-	- [ ] migration v6
+	- [x] migration v6
 -  [PLAID-118034](https://jira.mgdis.fr/browse/PLAID-118034) info comp transverses (SIRET / liste valeurs)
 	- [x] Reproduire
 	- [x] Analyser
@@ -32,8 +20,6 @@
 	- [ ] Thibaut : "Il faudra donc faire un report de la correction sur la version qui va sortir et la 250"
 	- [ ] MR
 - [ ] Ramener le clavier mx master
-
-
 - [ ] console errors
 	- Fiche de synthèse
 	- Informations générales de la demande
@@ -43,7 +29,7 @@
 	- Erreurs du ticket
 		- Reproduis
 			- Potentielle solution
-				- [ ] undefined setting 'message'
+				- [ ] mg-tooltip undefined setting 'message' 
 					- écran : synthèse, infos générales, recevabilité, instruction
 					- service : EA
 					- Erreur intégration du mg-tooltip, propriété message est obligatoire, ajouter 
@@ -83,4 +69,7 @@
 	- Autres erreurs trouvées
 		- [ ] checkValidity
 			- écran : 
-			- service :
+			- service : portail-agent
+			- Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) sur le mg-input-textarea [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
+- PLAID-116394 financeur principal
+- Partir de la branche d'Alexandre (migration v6 mg-comp) pour créer une branche pour la migration mg-date, commit et push, faire une MR draft et l'envoyer à MAS / ABO
