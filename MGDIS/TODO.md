@@ -72,4 +72,3 @@
 			- service : portail-agent
 			- Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) sur le mg-input-textarea [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
 - PLAID-116394 financeur principal
-- Partir de la branche d'Alexandre (migration v6 mg-comp) pour créer une branche pour la migration mg-date, commit et push, faire une MR draft et l'envoyer à MAS / ABO
