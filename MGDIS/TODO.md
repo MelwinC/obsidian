@@ -72,3 +72,23 @@
 			- service : portail-agent
 			- Chargement du composant que si les valeurs passées dans le ng-prop-value sont présentes (ng-if) sur le mg-input-textarea [ici](https://gitlab.mgdis.fr/angular/portail-agent-aides/-/blob/alpha-november/app/modules/aides/aides-directives/recevabilite/recevabilite.html#L62)
 - PLAID-116394 financeur principal
+- PLAID-118688 indicateurs
+	- [lien local](/referentiel-hierarchies/public/#/dev1/indicateurs-saisis/agentIndicateursSaisis?entityId=%2Freferentiel-financement%2Fapi%2Ftenants%2Fdev1%2Fdemandes-financement%2FtB9mvs4DO&fetchIndicateurs=true&jwtKey=jwt-dev1-portail-agent-aides&readOnly=false&state=previewed)
+	- Ajouter tous les paramètres nécessaires (jwtKey, fetchIndicateurs)
+	- Push sur une branche
+	- Merge beta
+	- Quand le merge est validé, faire les patchs vers les hotfix
+
+
+### Info retour
+
+- Ticket sur les indicateurs à terminer -> questions à ABO
+	- TU sur l'attribut disabled ?
+	- Mise à jour des props jwtKey (notamment) qui créé des erreurs console lors du lancement des TU car initialisés sans cette propriété, 2 solutions : 
+		- ignorer les erreurs
+		- adapter les props et donc adapter les snapshots
+- Retour MR https://gitlab.mgdis.fr/nodejs/data-schemas/-/merge_requests/1488#note_596547 sur la value qui n'est pas à modifier d'après le conseil d'ABO, privilégier de modifier le champ reference (if else ?)
+- Ticket mg-date prendre des nouvelles, push prochaine beta ?
+- Ticket console.log, on fait quoi ? 
+- Ticket ref-fin chercher une solution pour tester / lancer : 
+	- faire avec ABO ?
